@@ -9,7 +9,7 @@ However, it is also common that subjects have incomplete modalities due to cost 
 
 This package aims to fuse incomplete-modality datasets to build a machine learning predictive model. 
 
-To understand the predictive model better, suppose there are three modalities in one dataset: MRI, CT, and EEG. In each modality, there are multiple features.
+To understand the incomplete-modality predictive model better, suppose there are three modalities in one dataset: MRI, CT, and EEG. In each modality, there are multiple features.
 
  Some records have all three modalities; while others have different kinds of incomplete modality patterns (e.g., some only have MRI, CT, no EEG, and some only have CT and EEG, no MRI. We want to build a model to predict 'y'.
  
